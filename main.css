@@ -1,0 +1,112 @@
+* {
+	margin: 9;
+	padding: 9;
+	box-sizing: border-box;
+		
+}
+
+body {
+	background-image: url('wallpaper.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+header {	
+	width: 60%;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	background-color: rgb(247, 247, 247);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border: 3px ridge #29d5db;
+	font-family: serif;
+	font-size: larger;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: serif;	
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+main .booklist {
+	width: 35%;
+	max-width: auto;
+	background-color: rgb(247, 247, 247);
+	border: 3px ridge #29d5db;
+	margin-top: 35px;
+	text-align: center;
+}
+
+main .booklist .item {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	border-top: 1px ridge #20acb1;
+}
+
+main .booklist .item:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+
+.pagination {
+	margin-top: 7px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagination button {
+	
+	width: 45px;
+	height: 45px;
+
+	appearance: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	background-color: #b0b8be;
+
+	margin: 9px;
+	transition: 0.5s;
+
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.pagination button:hover {
+	background-color: #29d5db;
+}
+
+.pagination button.active {
+	background-color: #29d5db;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+button { 
+    background-color: #347bff; 
+    border: none;
+  	color: white;
+  	padding: 7px 16px;
+  	text-align: center;
+  	text-decoration: none;
+ 	display: inline-block;
+  	font-size: 16px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-left: auto;
+	padding-right: auto;
+}
